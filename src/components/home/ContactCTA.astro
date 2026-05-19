@@ -1,0 +1,26 @@
+---
+import Container from '@/components/Container.astro';
+---
+
+<section id="contact-cta" class="py-24 bg-primary text-foreground relative overflow-hidden" data-ps="src/components/home/ContactCTA.astro:section">
+  <!-- Subtle patterns -->
+  <div class="absolute inset-0 opacity-10 pointer-events-none" data-ps="src/components/home/ContactCTA.astro:pattern">
+    <svg width="100%" height="100%"><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-width="1"/></pattern><rect width="100%" height="100%" fill="url(#grid)"/></svg>
+  </div>
+
+  <Container class="relative z-10">
+    <div class="max-w-4xl mx-auto text-center reveal" data-ps="src/components/home/ContactCTA.astro:content">
+      <h2 class="text-3xl md:text-6xl font-heading font-bold mb-6" data-ps="src/components/home/ContactCTA.astro:title">
+        Neem contact met ons op
+      </h2>
+      <p class="text-xl md:text-2xl text-foreground/80 mb-10" data-ps="src/components/home/ContactCTA.astro:description">
+        Heb je als ondernemer vragen over het lanceren, optimaliseren of opschalen van je advertentiefunnel? Wij staan klaar om je verder te helpen.
+      </p>
+      <div data-ps="src/components/home/ContactCTA.astro:cta-container">
+        <a href="/contact" class="inline-flex items-center justify-center px-10 py-5 bg-background text-foreground font-bold rounded-md hover:bg-surface transition-all shadow-xl no-underline text-lg" data-ps="src/components/home/ContactCTA.astro:cta">
+          Contact opnemen
+        </a>
+      </div>
+    </div>
+  </Container>
+</section>

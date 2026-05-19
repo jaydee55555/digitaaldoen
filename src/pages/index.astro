@@ -1,0 +1,49 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/home/Hero.astro';
+import PainPoints from '@/components/home/PainPoints.astro';
+import Services from '@/components/home/Services.astro';
+import Results from '@/components/home/Results.astro';
+import Certifications from '@/components/home/Certifications.astro';
+import Testimonials from '@/components/home/Testimonials.astro';
+import Process from '@/components/home/Process.astro';
+import About from '@/components/home/About.astro';
+import ContactCTA from '@/components/home/ContactCTA.astro';
+
+const title = "DigitaalDoen - Online marketing voor ambiteuze ondernemers";
+const description = "Wij helpen ondernemers actief als coaches, dienstverleners en vakmannen automatisch leads aantrekken en succesvol omzetten naar nieuwe klanten.";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": title,
+  "description": description,
+  "mainEntity": {
+    "@type": "Service",
+    "name": "Online Marketing Funnels",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "DigitaalDoen",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "W. Dreesweg 2",
+        "addressLocality": "Almere",
+        "postalCode": "1314 VB",
+        "addressCountry": "NL"
+      }
+    }
+  }
+};
+---
+
+<BaseLayout title={title} description={description} jsonLd={jsonLd}>
+  <Hero />
+  <PainPoints />
+  <Services />
+  <Results />
+  <Certifications />
+  <Testimonials />
+  <Process />
+  <About />
+  <ContactCTA />
+</BaseLayout>

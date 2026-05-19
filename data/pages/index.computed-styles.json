@@ -1,0 +1,655 @@
+{
+  "viewportWidth": 1920,
+  "pageBackground": null,
+  "sectionThemes": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(0, 0, 0)",
+      "textColor": "rgb(255, 255, 255)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "52px",
+          "fontWeight": "400",
+          "color": "rgb(255, 255, 255)",
+          "text": "Slimme advertentiefunnels voor ambiteuze ondernemers"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "22px",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "33px"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(5, 177, 229)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "5px",
+          "border": "1px solid rgb(5, 177, 229)",
+          "padding": "15px 40px 15px 40px",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "text": "Contact opnemen"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1170px",
+        "paddingBlock": "200px 200px",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "childCount": 4
+      }
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "https://assets.cdn.filesafe.space/BwRmzgVdjDGT6uis4Ztt/media/63b82430240278c62fbbe598.png",
+      "isBackgroundPhoto": true,
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(33, 93, 138)",
+      "textColor": "rgb(255, 255, 255)",
+      "headings": [],
+      "bodyStyle": {
+        "fontSize": "20px",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "buttons": [],
+      "layout": {
+        "containerMaxWidth": "1170px",
+        "paddingBlock": "20px 20px",
+        "display": "flex",
+        "flexDirection": "row",
+        "childCount": 3
+      }
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": "rgb(0, 0, 0)",
+      "headings": [
+        {
+          "tag": "h4",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "color": "rgb(0, 0, 0)",
+          "text": "Worstel je met..."
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "18px",
+        "color": "rgb(0, 0, 0)",
+        "lineHeight": "18px"
+      },
+      "buttons": [],
+      "images": [
+        {
+          "displayWidth": 528,
+          "displayHeight": 528
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1170px",
+        "paddingBlock": "90px 90px",
+        "display": "flex",
+        "flexDirection": "row",
+        "childCount": 2
+      }
+    },
+    {
+      "background": "rgb(33, 93, 138)",
+      "textColor": "rgb(255, 255, 255)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "color": "rgb(255, 255, 255)",
+          "text": "Zo helpen wij jou aan nieuwe leads en klanten online"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "color": "rgb(0, 0, 0)",
+          "text": "Campagnes"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "color": "rgb(0, 0, 0)",
+          "text": "Funnels"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "color": "rgb(0, 0, 0)",
+          "text": "AI"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "18px",
+        "color": "rgb(0, 0, 0)",
+        "lineHeight": "27px"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(5, 177, 229)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "5px",
+          "border": "1px solid rgb(5, 177, 229)",
+          "padding": "15px 40px 15px 40px",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "text": "Contact opnemen"
+        }
+      ],
+      "images": [
+        {
+          "displayWidth": 175,
+          "displayHeight": 175
+        },
+        {
+          "displayWidth": 175,
+          "displayHeight": 175
+        },
+        {
+          "displayWidth": 175,
+          "displayHeight": 175
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1170px",
+        "paddingBlock": "90px 90px",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "childCount": 2
+      }
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "https://assets.cdn.filesafe.space/BwRmzgVdjDGT6uis4Ztt/media/63b82430240278c62fbbe598.png",
+      "isBackgroundPhoto": true,
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(250, 250, 250)",
+      "textColor": "rgb(0, 0, 0)",
+      "headings": [
+        {
+          "tag": "h4",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "color": "rgb(0, 0, 0)",
+          "text": "Enkele resultaten van onze partners"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "color": "rgb(0, 0, 0)",
+          "text": "4.147 nieuwe bellers voor een vakman in één jaar met een conversie van 11,11%"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "color": "rgb(0, 0, 0)",
+          "text": "124.106 nieuwe inschrijvingen voor een coach op een mailinglijst binnen 18 maand"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "color": "rgb(0, 0, 0)",
+          "text": "Lage leadkosten voor een dienstverlener via Google Ads met een conversie van 12,"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "color": "rgb(0, 0, 0)",
+          "text": "57 nieuwe afspraken in één maand voor een coach, waarvan een mooi deel klant wer"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "14px",
+        "color": "rgb(238, 238, 238)",
+        "lineHeight": "18.2px"
+      },
+      "buttons": [],
+      "images": [
+        {
+          "displayWidth": 486,
+          "displayHeight": 324
+        },
+        {
+          "displayWidth": 486,
+          "displayHeight": 324
+        },
+        {
+          "displayWidth": 486,
+          "displayHeight": 301
+        },
+        {
+          "displayWidth": 486,
+          "displayHeight": 301
+        },
+        {
+          "displayWidth": 486,
+          "displayHeight": 324
+        },
+        {
+          "displayWidth": 486,
+          "displayHeight": 324
+        },
+        {
+          "displayWidth": 486,
+          "displayHeight": 259
+        },
+        {
+          "displayWidth": 486,
+          "displayHeight": 324
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1170px",
+        "paddingBlock": "90px 90px",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "childCount": 2
+      }
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": "rgb(0, 0, 0)",
+      "headings": [
+        {
+          "tag": "h4",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "color": "rgb(0, 0, 0)",
+          "text": "Wat een aantal partners over ons zeggen"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "18px",
+        "color": "rgb(0, 0, 0)",
+        "lineHeight": "27px"
+      },
+      "buttons": [],
+      "layout": {
+        "containerMaxWidth": "1170px",
+        "paddingBlock": "90px 90px",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "childCount": 3
+      }
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": "rgb(0, 0, 0)",
+      "headings": [
+        {
+          "tag": "h1",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "color": "rgb(0, 0, 0)",
+          "text": "1."
+        },
+        {
+          "tag": "h3",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "color": "rgb(0, 0, 0)",
+          "text": "Analyseren"
+        },
+        {
+          "tag": "h1",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "color": "rgb(0, 0, 0)",
+          "text": "2."
+        },
+        {
+          "tag": "h3",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "color": "rgb(0, 0, 0)",
+          "text": "Actieplan"
+        },
+        {
+          "tag": "h1",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "color": "rgb(0, 0, 0)",
+          "text": "3."
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "42px",
+        "color": "rgb(0, 0, 0)",
+        "lineHeight": "54.6px"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(33, 93, 138)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "5px",
+          "border": "1px solid rgb(33, 93, 138)",
+          "padding": "15px 40px 15px 40px",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "text": "Contact opnemen"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1170px",
+        "paddingBlock": "90px 90px",
+        "display": "flex",
+        "flexDirection": "row",
+        "childCount": 2
+      }
+    },
+    {
+      "background": "rgb(250, 250, 250)",
+      "textColor": "rgb(0, 0, 0)",
+      "headings": [
+        {
+          "tag": "h4",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "color": "rgb(0, 0, 0)",
+          "text": "Over Joeri Detering"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "18px",
+        "color": "rgb(0, 0, 0)",
+        "lineHeight": "27px"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(33, 93, 138)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "5px",
+          "border": "1px solid rgb(33, 93, 138)",
+          "padding": "15px 40px 15px 40px",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "text": "Contact opnemen"
+        }
+      ],
+      "images": [
+        {
+          "displayWidth": 520,
+          "displayHeight": 510,
+          "borderRadius": "5px"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1170px",
+        "paddingBlock": "90px 90px",
+        "display": "flex",
+        "flexDirection": "row",
+        "childCount": 2
+      }
+    },
+    {
+      "background": "rgb(61, 179, 233)",
+      "textColor": "rgb(0, 0, 0)",
+      "headings": [],
+      "bodyStyle": {
+        "fontSize": "42px",
+        "color": "rgb(0, 0, 0)",
+        "lineHeight": "54.6px"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgb(33, 93, 138)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "5px",
+          "border": "1px solid rgb(33, 93, 138)",
+          "padding": "15px 40px 15px 40px",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "text": "Contact opnemen"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1170px",
+        "paddingBlock": "90px 90px",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "childCount": 3
+      }
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "https://assets.cdn.filesafe.space/BwRmzgVdjDGT6uis4Ztt/media/63b82430240278c62fbbe598.png",
+      "isBackgroundPhoto": true,
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(33, 93, 138)",
+      "textColor": "rgb(255, 255, 255)",
+      "headings": [
+        {
+          "tag": "h3",
+          "fontSize": "20px",
+          "fontWeight": "400",
+          "color": "rgb(255, 255, 255)",
+          "text": "Menu"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "20px",
+          "fontWeight": "400",
+          "color": "rgb(255, 255, 255)",
+          "text": "Contact"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "16px",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "32px"
+      },
+      "buttons": [],
+      "images": [
+        {
+          "displayWidth": 200,
+          "displayHeight": 38
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1170px",
+        "paddingBlock": "60px 60px",
+        "display": "flex",
+        "flexDirection": "row",
+        "childCount": 3
+      }
+    }
+  ],
+  "globalTypography": {
+    "headingFont": "Poppins",
+    "bodyFont": "Inter",
+    "scale": {
+      "h2": {
+        "fontSize": "52px",
+        "fontWeight": "400",
+        "lineHeight": "67.6px"
+      },
+      "h4": {
+        "fontSize": "40px",
+        "fontWeight": "400",
+        "lineHeight": "52px"
+      },
+      "h3": {
+        "fontSize": "24px",
+        "fontWeight": "400",
+        "lineHeight": "31.2px"
+      },
+      "h1": {
+        "fontSize": "48px",
+        "fontWeight": "700",
+        "lineHeight": "48px"
+      },
+      "body": {
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px"
+      }
+    }
+  },
+  "navigation": null,
+  "sliders": [],
+  "buttons": [
+    {
+      "backgroundColor": "rgb(5, 177, 229)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "5px",
+      "border": "1px solid rgb(5, 177, 229)",
+      "padding": "15px 40px 15px 40px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "text": "Contact opnemen"
+    },
+    {
+      "backgroundColor": "rgb(33, 93, 138)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "5px",
+      "border": "1px solid rgb(33, 93, 138)",
+      "padding": "15px 40px 15px 40px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "text": "Contact opnemen"
+    }
+  ],
+  "videos": [
+    {
+      "src": "blob:https://digitaaldoen.nl/f2cbfa9b-85df-48bd-8447-9ebd964d1d25",
+      "type": "background",
+      "autoplay": false,
+      "muted": false,
+      "loop": false,
+      "controls": false,
+      "poster": "https://fast.wistia.com/assets/images/blank.gif",
+      "width": 525,
+      "height": 295,
+      "topPosition": 6604
+    },
+    {
+      "src": "blob:https://digitaaldoen.nl/83e24db4-b9ef-4bff-96d5-7bb48e0b8481",
+      "type": "background",
+      "autoplay": false,
+      "muted": true,
+      "loop": true,
+      "controls": false,
+      "poster": "https://fast.wistia.com/assets/images/blank.gif",
+      "width": 525,
+      "height": 295,
+      "topPosition": 6604
+    }
+  ],
+  "footer": null,
+  "socialLinks": null,
+  "hoverStyles": {
+    "#nav-menu-_N5AiiRnKg .nav-menu .nav-menu-item a": {
+      "color": "var(--color-lwj686i4)"
+    },
+    "#nav-menu-popup.nav-menu-_N5AiiRnKg .nav-menu .nav-menu-item a, #nav-menu-popup.nav-menu-_N5AiiRnKg .nav-menu-body .nav-menu .nav-menu-item": {
+      "color": "var(--color-lwj686i4)"
+    },
+    "#nav-menu-_N5AiiRnKg .nav-menu .dropdown-menu .dropdown-item a, #nav-menu-popup.nav-menu-_N5AiiRnKg .nav-menu .nav-dropdown-menu .nav-menu-item a": {
+      "color": "var(--black)"
+    },
+    "#nav-menu-_N5AiiRnKg .nav-menu .dropdown-menu .dropdown-item a, #nav-menu-popup.nav-menu-_N5AiiRnKg .nav-menu-body .nav-dropdown-menu .nav-menu-item a": {
+      "color": "var(--color-lwj6dq4a)"
+    },
+    ".figure span[data-v-2f714085]:focus, .figure span[data-v-2f714085]": {
+      "backgroundColor": "rgb(135, 206, 250)",
+      "opacity": "1"
+    },
+    ".figure.youtube span[data-v-2f714085]:focus, .figure.youtube span[data-v-2f714085]": {
+      "backgroundColor": "red"
+    },
+    ".button-shadow-highlight": {
+      "boxShadow": "rgba(255, 255, 255, 0.22) 0px 0px inset, rgba(255, 255, 255, 0.12) 0px 233px 233px inset"
+    },
+    ".eapps-widget .eapps-widget-toolbar": {
+      "opacity": "1"
+    },
+    ".eapps-widget .eapps-widget-toolbar-panel": {
+      "opacity": "1"
+    },
+    ".eapps-widget-toolbar-panel-share .eapps-widget-toolbar-panel-share-block": {
+      "opacity": "1"
+    },
+    ".eapps-widget-toolbar-panel-share-block": {
+      "opacity": "1"
+    },
+    ".eapps-widget-toolbar-panel-share-block-actions-item": {
+      "backgroundColor": "rgb(250, 250, 250)"
+    },
+    ".hosted-video-thumbnail:focus, .hosted-video-thumbnail": {
+      "opacity": "1"
+    },
+    ".vjs-marker": {
+      "transform": "unset"
+    },
+    ".enable-sound-button": {
+      "backgroundColor": "rgba(0, 0, 0, 0.75)"
+    }
+  },
+  "cssVariables": {
+    "--color-lwj686i4": "#215D8A",
+    "--color-lwj6dq4a": "#05B1E5",
+    "--color-lwj85m51": "#fafafa",
+    "--color-lwl3epg8": "#eee",
+    "--color-lwokpfri": "#215D8A",
+    "--color-lwt0oica": "#747474",
+    "--color-lwy244tn": "#3DB3E9",
+    "--color-66c5b4f991201e717d357151": "#05B1E5",
+    "--color-66c5b4f991201e3958357152": "#FFFFFF",
+    "--color-66dffd10449b3267ca7935b0": "#000000",
+    "--color-66dffd10449b32c5cc7935b1": "#215D8A"
+  },
+  "externalFonts": [
+    "https://fonts.gstatic.com/",
+    "https://fonts.googleapis.com/css?family=Lato:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7COpen%20Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CMontserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CRoboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CInter:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CPoppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap",
+    "https://fonts.googleapis.com/css?family=Lato:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7COpen%20Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CMontserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CRoboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CInter:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CPoppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap",
+    "https://fonts.googleapis.com/css?family=Lato:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7COpen%20Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CMontserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CRoboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CInter:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CPoppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap",
+    "font-face: Font Awesome 5 Free",
+    "font-face: Font Awesome 5 Free",
+    "font-face: Font Awesome 5 Brands",
+    "font-face: WistiaPlayerInterNumbersSemiBold",
+    "font-face: WistiaPlayerInter",
+    "font-face: WistiaPlayerInter"
+  ]
+}

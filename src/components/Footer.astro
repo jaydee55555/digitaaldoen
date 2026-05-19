@@ -1,0 +1,68 @@
+  ---
+  // Footer component - shared across all pages
+  import Container from '@/components/Container.astro';
+  import { SITE } from '@/config/site';
+
+  export interface Props {
+    companyName?: string;
+    companyDescription?: string;
+    copyright?: string;
+  }
+
+  const {
+    companyName = SITE.name,
+    companyDescription = SITE.description,
+    copyright = `© ${new Date().getFullYear()} ${companyName}. All rights reserved.`
+  } = Astro.props;
+  ---
+
+  <footer class="bg-dark text-dark-foreground py-16" data-ps="src/components/Footer.astro:ikmf33">
+    <Container>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12" data-ps="src/components/Footer.astro:p4vf88">
+        <!-- Company Info -->
+        <div data-ps="src/components/Footer.astro:p4vf89">
+          <img 
+            src="https://pagesmith-cdn.com/eb269a49/images/66510659ce866557254eea2b-320.webp" 
+            alt="DigitaalDoen Logo" 
+            class="h-8 w-auto mb-6 brightness-0 invert"
+            loading="lazy"
+            data-ps="src/components/Footer.astro:logo"
+          />
+          <p class="text-sm text-dark-muted leading-relaxed" data-ps="src/components/Footer.astro:euol">
+            Wij helpen ondernemers actief als coaches, dienstverleners en vakmannen automatisch leads aantrekken en succesvol omzetten naar nieuwe klanten.
+          </p>
+        </div>
+
+        <!-- Menu -->
+        <div data-ps="src/components/Footer.astro:p4vf8a">
+          <h2 class="text-sm font-bold uppercase tracking-widest text-dark-foreground mb-6" data-ps="src/components/Footer.astro:f0091e">Menu</h2>
+          <ul class="list-none p-0 m-0 flex flex-col gap-3">
+            <li data-ps="src/components/Footer.astro:l-1"><a href="/" class="text-sm text-dark-muted no-underline hover:text-primary transition-colors" data-ps="src/components/Footer.astro:a-1">Home</a></li>
+            <li data-ps="src/components/Footer.astro:l-2"><a href="/#services" class="text-sm text-dark-muted no-underline hover:text-primary transition-colors" data-ps="src/components/Footer.astro:a-2">Online funnels</a></li>
+            <li data-ps="src/components/Footer.astro:l-3"><a href="/#results" class="text-sm text-dark-muted no-underline hover:text-primary transition-colors" data-ps="src/components/Footer.astro:a-3">Online campagnes</a></li>
+            <li data-ps="src/components/Footer.astro:l-4"><a href="/#about" class="text-sm text-dark-muted no-underline hover:text-primary transition-colors" data-ps="src/components/Footer.astro:a-4">Over ons</a></li>
+            <li data-ps="src/components/Footer.astro:l-5"><a href="/contact" class="text-sm text-dark-muted no-underline hover:text-primary transition-colors" data-ps="src/components/Footer.astro:a-5">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div data-ps="src/components/Footer.astro:p4vf8c">
+          <h2 class="text-sm font-bold uppercase tracking-widest text-dark-foreground mb-6" data-ps="src/components/Footer.astro:f0091f">Contact</h2>
+          <div class="text-sm text-dark-muted space-y-2" data-ps="src/components/Footer.astro:c-details">
+            <p data-ps="src/components/Footer.astro:c-name">DigitaalDoen</p>
+            <p data-ps="src/components/Footer.astro:c-addr">W. Dreesweg 2, 1314 VB Almere</p>
+            <p data-ps="src/components/Footer.astro:c-kvk">KvK: 56011539</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright & Links -->
+      <div class="border-t border-dark-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4" data-ps="src/components/Footer.astro:p4vf8b">
+        <p class="text-sm text-dark-muted" data-ps="src/components/Footer.astro:euom">© 2026 DigitaalDoen. Alle rechten voorbehouden</p>
+        <div class="flex gap-6" data-ps="src/components/Footer.astro:f-links">
+          <a href="/privacyverklaring" class="text-sm text-dark-muted no-underline hover:text-primary transition-colors" data-ps="src/components/Footer.astro:fl-1">Privacyverklaring</a>
+          <a href="https://storage.googleapis.com/msgsndr/BwRmzgVdjDGT6uis4Ztt/media/6661c5281848aee9519d4a52.pdf" target="_blank" class="text-sm text-dark-muted no-underline hover:text-primary transition-colors" data-ps="src/components/Footer.astro:fl-2">Algemene voorwaarden</a>
+        </div>
+      </div>
+    </Container>
+  </footer>

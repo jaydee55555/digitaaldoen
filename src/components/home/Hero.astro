@@ -1,0 +1,41 @@
+---
+import Container from '@/components/Container.astro';
+---
+
+<section id="hero" class="relative bg-dark text-dark-foreground py-24 md:py-36 overflow-hidden" data-ps="src/components/home/Hero.astro:hero-section">
+  <!-- Subtle Glow Effect -->
+  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-full bg-primary/5 blur-[120px] pointer-events-none" data-ps="src/components/home/Hero.astro:glow"></div>
+
+  <Container class="relative z-10">
+    <div class="max-w-4xl mx-auto text-center" data-ps="src/components/home/Hero.astro:content">
+      <h1 class="text-4xl md:text-6xl font-heading font-bold mb-6 hero-animate" data-ps="src/components/home/Hero.astro:title">
+        Slimme advertentiefunnels voor ambiteuze ondernemers
+      </h1>
+      <p class="text-lg md:text-xl text-dark-muted mb-10 hero-animate hero-animate-delay-1" data-ps="src/components/home/Hero.astro:description">
+        Wij lanceren advertentiefunnels op Google en Meta die automatisch gekwalificeerde aanvragen en afspraken opleveren voor vakmannen en dienstverleners.
+      </p>
+      
+      <div class="flex flex-col sm:flex-row justify-center gap-4 mb-16 hero-animate hero-animate-delay-2" data-ps="src/components/home/Hero.astro:cta-container">
+        <a href="/contact" class="inline-flex items-center justify-center px-8 py-4 bg-primary text-foreground font-bold rounded-md hover:bg-primary-hover transition-all shadow-lg shadow-primary/20 no-underline" data-ps="src/components/home/Hero.astro:cta">
+          Contact opnemen
+        </a>
+      </div>
+
+      <!-- Metrics / Trust Badges -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 hero-animate hero-animate-delay-3" data-ps="src/components/home/Hero.astro:metrics">
+        <div class="flex items-center justify-center gap-3 px-6 py-4 bg-dark-muted/5 border border-dark-border rounded-xl backdrop-blur-sm" data-ps="src/components/home/Hero.astro:metric-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <span class="text-sm font-medium" data-ps="src/components/home/Hero.astro:3f6ipe">Meer dan 10 jaar ervaring</span>
+        </div>
+        <div class="flex items-center justify-center gap-3 px-6 py-4 bg-dark-muted/5 border border-dark-border rounded-xl backdrop-blur-sm" data-ps="src/components/home/Hero.astro:metric-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <span class="text-sm font-medium" data-ps="src/components/home/Hero.astro:3f6ipd">Bewezen online marketingsystemen</span>
+        </div>
+        <div class="flex items-center justify-center gap-3 px-6 py-4 bg-dark-muted/5 border border-dark-border rounded-xl backdrop-blur-sm" data-ps="src/components/home/Hero.astro:metric-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <span class="text-sm font-medium" data-ps="src/components/home/Hero.astro:3f6ipc">€5.225.712+ rendabel budget</span>
+        </div>
+      </div>
+    </div>
+  </Container>
+</section>

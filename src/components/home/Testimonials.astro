@@ -1,0 +1,51 @@
+---
+import Container from '@/components/Container.astro';
+---
+
+<section id="testimonials" class="py-24 bg-dark text-dark-foreground" data-ps="src/components/home/Testimonials.astro:section">
+  <Container>
+    <div class="text-center mb-16 reveal" data-ps="src/components/home/Testimonials.astro:header">
+      <h2 class="text-3xl md:text-5xl font-heading font-bold mb-4" data-ps="src/components/home/Testimonials.astro:title">
+        Wat een aantal partners over ons zeggen
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8" data-ps="src/components/home/Testimonials.astro:grid">
+      <!-- Testimonial 1 -->
+      <div class="bg-dark-muted/5 border border-dark-border p-8 rounded-2xl relative reveal" data-ps="src/components/home/Testimonials.astro:card-1">
+        <div class="absolute -top-4 -left-2 text-primary/20 text-6xl font-serif select-none" data-ps="src/components/home/Testimonials.astro:quote-icon-1">“</div>
+        <p class="text-dark-muted mb-8 relative z-10 italic leading-relaxed" data-ps="src/components/home/Testimonials.astro:text-1">
+          "Door de samenwerking met Joeri hebben we gezien dat wanneer je het marketingbudget op de juiste manier inzet, dit tot resultaten leidt. Joeri is zeer bedreven in het beheren van de Google campagnes en eigenlijk alles voor ons op het gebied van social media."
+        </p>
+        <div class="mt-auto" data-ps="src/components/home/Testimonials.astro:author-1">
+          <p class="font-bold text-dark-foreground" data-ps="src/components/home/Testimonials.astro:name-1">Gregoor Landman</p>
+          <p class="text-sm text-primary" data-ps="src/components/home/Testimonials.astro:role-1">Anti Pest Control</p>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="bg-dark-muted/5 border border-dark-border p-8 rounded-2xl relative reveal reveal-delay-1" data-ps="src/components/home/Testimonials.astro:card-2">
+        <div class="absolute -top-4 -left-2 text-primary/20 text-6xl font-serif select-none" data-ps="src/components/home/Testimonials.astro:quote-icon-2">“</div>
+        <p class="text-dark-muted mb-8 relative z-10 italic leading-relaxed" data-ps="src/components/home/Testimonials.astro:text-2">
+          "Het afgelopen evenement had 35% meer sales, 41% meer omzet en een 25% lagere kosten per acquisitie. Het VANKO® framework heeft ook meer stabiliteit gebracht en het gevoel gegeven dat je weet wat je doet."
+        </p>
+        <div class="mt-auto" data-ps="src/components/home/Testimonials.astro:author-2">
+          <p class="font-bold text-dark-foreground" data-ps="src/components/home/Testimonials.astro:name-2">Nari Doerga</p>
+          <p class="text-sm text-primary" data-ps="src/components/home/Testimonials.astro:role-2">Kotatsu</p>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="bg-dark-muted/5 border border-dark-border p-8 rounded-2xl relative reveal reveal-delay-2" data-ps="src/components/home/Testimonials.astro:card-3">
+        <div class="absolute -top-4 -left-2 text-primary/20 text-6xl font-serif select-none" data-ps="src/components/home/Testimonials.astro:quote-icon-3">“</div>
+        <p class="text-dark-muted mb-8 relative z-10 italic leading-relaxed" data-ps="src/components/home/Testimonials.astro:text-3">
+          "Wat zij doen met hun framework is buitengewoon. Het is een goed bewaard geheim in de online marketingwereld en mijn geheime parel. DigitaalDoen en het VANKO® framework zijn van harte aanbevolen."
+        </p>
+        <div class="mt-auto" data-ps="src/components/home/Testimonials.astro:author-3">
+          <p class="font-bold text-dark-foreground" data-ps="src/components/home/Testimonials.astro:name-3">Peter Post</p>
+          <p class="text-sm text-primary" data-ps="src/components/home/Testimonials.astro:role-3">Copywriting voor ondernemers</p>
+        </div>
+      </div>
+    </div>
+  </Container>
+</section>

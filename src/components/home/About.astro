@@ -1,0 +1,41 @@
+---
+import Container from '@/components/Container.astro';
+---
+
+<section id="about" class="py-24 bg-background" data-ps="src/components/home/About.astro:section">
+  <Container>
+    <div class="flex flex-col lg:flex-row items-center gap-16" data-ps="src/components/home/About.astro:layout">
+      <div class="flex-1 reveal-left" data-ps="src/components/home/About.astro:content">
+        <h2 class="text-sm font-bold uppercase tracking-widest text-foreground mb-4" data-ps="src/components/home/About.astro:label">Over Joeri Detering</h2>
+        <h2 class="text-3xl md:text-5xl font-heading font-bold mb-8 text-foreground" data-ps="src/components/home/About.astro:title">
+          Gedreven door resultaat
+        </h2>
+        <div class="space-y-6 text-lg text-muted-foreground" data-ps="src/components/home/About.astro:text">
+          <p data-ps="src/components/home/About.astro:p-1">
+            In 2012 nam mijn stagebegeleider mij mee naar de Kamer van Koophandel, en begon ik als freelance webdesigner. Door de jaren heen heb ik mooie bedrijven mogen helpen.
+          </p>
+          <p data-ps="src/components/home/About.astro:p-2">
+            Tegenwoordig help ik als online marketeer, samen met een klein team, ondernemers bij het automatisch aantrekken van leads en het succesvol omzetten daarvan in nieuwe klanten.
+          </p>
+        </div>
+        <div class="mt-10" data-ps="src/components/home/About.astro:cta-container">
+          <a href="/contact" class="inline-flex items-center justify-center px-8 py-4 bg-primary text-foreground font-bold rounded-md hover:bg-primary-hover transition-all no-underline" data-ps="src/components/home/About.astro:cta">
+            Contact opnemen
+          </a>
+        </div>
+      </div>
+      <div class="flex-1 reveal-right" data-ps="src/components/home/About.astro:image-container">
+        <div class="relative" data-ps="src/components/home/About.astro:img-wrapper">
+          <div class="absolute -inset-4 bg-primary/10 rounded-2xl -z-10" data-ps="src/components/home/About.astro:img-bg"></div>
+          <img 
+            src="https://pagesmith-cdn.com/eb269a49/images/65eb113b0013ad69888fefde-768.webp" 
+            alt="Joeri Detering" 
+            class="w-full rounded-2xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-500"
+            loading="lazy"
+            data-ps="src/components/home/About.astro:img"
+          />
+        </div>
+      </div>
+    </div>
+  </Container>
+</section>

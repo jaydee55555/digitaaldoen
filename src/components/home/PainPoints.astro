@@ -1,0 +1,44 @@
+---
+import Container from '@/components/Container.astro';
+---
+
+<section id="pain-points" class="py-20 bg-background" data-ps="src/components/home/PainPoints.astro:section">
+  <Container>
+    <div class="flex flex-col md:flex-row items-center gap-12" data-ps="src/components/home/PainPoints.astro:layout">
+      <div class="flex-1 reveal-left" data-ps="src/components/home/PainPoints.astro:image-container">
+        <img 
+          src="https://pagesmith-cdn.com/eb269a49/images/665f85a31b8465439c9f8e3d.svg" 
+          alt="Online marketing uitdagingen" 
+          class="w-full max-w-lg mx-auto"
+          loading="lazy"
+          data-ps="src/components/home/PainPoints.astro:image"
+        />
+      </div>
+      <div class="flex-1 reveal-right" data-ps="src/components/home/PainPoints.astro:content">
+        <h2 class="text-3xl md:text-4xl font-heading font-bold mb-8 text-foreground" data-ps="src/components/home/PainPoints.astro:title">
+          Worstel je met...
+        </h2>
+        <ul class="space-y-6" data-ps="src/components/home/PainPoints.astro:list">
+          <li class="flex items-start gap-4" data-ps="src/components/home/PainPoints.astro:item-1">
+            <div class="mt-1.5 p-1 rounded-full bg-primary/10 text-foreground" data-ps="src/components/home/PainPoints.astro:icon-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </div>
+            <p class="text-lg text-muted-foreground" data-ps="src/components/home/PainPoints.astro:text-1">Het aantrekken van de juiste klanten</p>
+          </li>
+          <li class="flex items-start gap-4" data-ps="src/components/home/PainPoints.astro:item-2">
+            <div class="mt-1.5 p-1 rounded-full bg-primary/10 text-foreground" data-ps="src/components/home/PainPoints.astro:icon-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </div>
+            <p class="text-lg text-muted-foreground" data-ps="src/components/home/PainPoints.astro:text-2">Leads omzetten in betalende klanten</p>
+          </li>
+          <li class="flex items-start gap-4" data-ps="src/components/home/PainPoints.astro:item-3">
+            <div class="mt-1.5 p-1 rounded-full bg-primary/10 text-foreground" data-ps="src/components/home/PainPoints.astro:icon-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </div>
+            <p class="text-lg text-muted-foreground" data-ps="src/components/home/PainPoints.astro:text-3">Een rendabele online marketingstrategie?</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </Container>
+</section>

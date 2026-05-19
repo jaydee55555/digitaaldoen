@@ -1,0 +1,97 @@
+{
+  "success": true,
+  "url": "https://digitaaldoen.nl/",
+  "structured": {
+    "title": "DigitaalDoen - Online marketing voor ambiteuze ondernemers",
+    "description": "Wij helpen ondernemers actief als coaches, dienstverleners en vakmannen automatisch leads aantrekken en succesvol omzetten naar nieuwe klanten.",
+    "url": "https://digitaaldoen.nl/",
+    "imageCount": 22,
+    "branding": {
+      "colors": {
+        "primary": "#215D8A",
+        "accent": "#05B1E5",
+        "background": "#FFFFFF",
+        "textPrimary": "#000000",
+        "link": "#05B1E5"
+      },
+      "typography": {
+        "fontFamilies": {
+          "primary": "Inter",
+          "heading": "Poppins"
+        },
+        "fontStacks": {
+          "heading": [
+            "Poppins"
+          ],
+          "body": [
+            "Times New Roman"
+          ],
+          "paragraph": [
+            "Inter"
+          ]
+        },
+        "fontSizes": {
+          "h1": "48px",
+          "h2": "52px",
+          "body": "22px"
+        }
+      },
+      "spacing": {
+        "baseUnit": 10,
+        "borderRadius": "5px"
+      },
+      "logo": "https://assets.cdn.filesafe.space/BwRmzgVdjDGT6uis4Ztt/media/63b823fa2402784784bbe596.webp",
+      "favicon": "https://storage.googleapis.com/msgsndr/BwRmzgVdjDGT6uis4Ztt/media/66539d3ece5dc9696b0a2307.png",
+      "faviconCdn": "https://pagesmith-cdn.com/eb269a49/images/66539d3ece5dc9696b0a2307-100.webp"
+    },
+    "pages": [
+      {
+        "slug": "index",
+        "path": "/",
+        "title": "DigitaalDoen - Online marketing voor ambiteuze ondernemers",
+        "file": "data/pages/index.md"
+      }
+    ],
+    "availablePages": [
+      {
+        "path": "/online-funnels/",
+        "label": "Online funnels - DigitaalDoen",
+        "slug": "online-funnels",
+        "scraped": false
+      },
+      {
+        "path": "/over-ons/",
+        "label": "Over ons - DigitaalDoen",
+        "slug": "over-ons",
+        "scraped": false
+      },
+      {
+        "path": "/contact/",
+        "label": "Contact - DigitaalDoen",
+        "slug": "contact",
+        "scraped": false
+      },
+      {
+        "path": "/online-campagnes/",
+        "label": "Online campagnes - DigitaalDoen",
+        "slug": "online-campagnes",
+        "scraped": false
+      },
+      {
+        "path": "/privacyverklaring/",
+        "label": "Privacyverklaring - DigitaalDoen",
+        "slug": "privacyverklaring",
+        "scraped": false
+      }
+    ]
+  },
+  "metadata": {
+    "scraper": "firecrawl-crawl-endpoint",
+    "timestamp": "2026-05-17T21:33:22.562Z",
+    "homepageContentLength": 7448,
+    "imageCount": 22,
+    "hasBranding": true,
+    "pagesDiscovered": 5,
+    "pagesScraped": 1
+  }
+}
